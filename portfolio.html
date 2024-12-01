@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website - Damu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h class="head">Portfolio</h>
+   
+    <div id="header">
+<div class="container">
+    <nav>
+        <img scr="html2/goole1.png"  class="logo">
+       
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div class="header-text">
+        <p>
+            Software Developer
+        </p>
+        <h>Hi, I'm <span>Damodharan</span> <br> I'm Study in KSRIET</h>
+    </div>
+</div>
+</div>
+<!--------about-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div id="about-col-1">
+                <img src="html2/portfolioimage.png">
+            </div>
+            <div id="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a Software Developer and i'm made a multiple project in this software field.</p>
+                <div class="tab-titles" >
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Web Developement</span><br>Web Page Develope</li>
+                        <li><span>App Developement</span><br>App Develope</li>
+                        <li><span>UI/UX</span><br>Web Page Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Web Developement</span><br>1 year</li>
+                        <li><span>App Developement</span><br>1 year</li>
+                        <li><span>UI/UX</span><br>2 year</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>BE/ECE</span><br>KSRIET</li>
+                        <li><span>12th</span><br>School</li>
+                        <li><span>10th</span><br>School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Developement</h2>
+                <p>
+                    I'm Pro in web Developement Using HTML,CSS,Java Script.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>App Developement</h2>
+                <p>
+                    I'm Pro in App Developement Using Android and Ios.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>
+                    I'm Pro in web Design Using UI/UX design.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="html2/web3.jpg">
+                <div class="layer">
+                    <h3>Website</h3>
+                    <p>
+                        The Website Concept is people are easy to use or Search.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt">click</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="html2/app1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>
+                        The App Concept is people are Communicated with others and Entertainment Purpose.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"> click</i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="html2/uiux1.jpg">
+                <div class="layer">
+                    <h3>App and Website</h3>
+                    <p>
+                        The App and Website Design and it use full to web Developer.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt">click</i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+<!----------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Email Id : contact@example.com <br>Ph No : 0123456789</p>
+                <div class="Social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="html2/resume1.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mei. Made with by Master26</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+</body>
+</html>
